@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#overview{
+
+}
+.headerDiv{
+    display: block;
+    height: 70px;
+    width: 100%;
+}
+header{
+    display: block;
+}
+.iconPhoto{
+    margin: 15px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    float: right;
+    border-radius: 50%;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+}
+.divReflex{
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.divReflexImg{
+    /* margin: 50px; */
+    /* padding: 200px; */
+    /* display: block; */
+}
+.divReflexImg img{
+    margin: 50px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.divReflexTitle{
+    width: 250px;
+    margin: 50px;
+}
+.divReflexTitle h1{
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    width: 150px;
+    padding: 20px;
+}
+
+.button-39 {
+  background-color: #FFFFFF;
+  border: 1px solid rgb(209,213,219);
+  border-radius: 50px;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  /* margin: 50px; */
+  margin-top: 30px;
+}
+
+.button-39:hover {
+  background-color: rgb(249,250,251);
+}
+
+.button-39:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button-39:focus-visible {
+  box-shadow: none;
+}
+
+.bodyFirstDiv{
+    height: 350px;
+    background-color: rgb(215, 219, 219);
+}
+.bodyFirstDiv h1{
+    padding-top: 30px;
+    color: #83878bda;
+    text-align: center;
+}
+.bodyFirstDiv p{
+    font-size: 20px;
+    display: block;  
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 250px; */
+    padding-top: 30px;
+    color: #9ea1a5;
+    text-align: center;
+}
+.bodySecondDiv{
+    height: 160px;
+    background-color: rgb(215, 219, 219);
+    font-size: 20px;
+    display: flex;  
+    justify-content: center;
+    text-align: center;
+    /* width: 250px; */
+    padding-top: 30px;
+    color: #9ea1a5;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(215, 219, 219);
+    padding: 20px;
+}
+.button-3 {
+    background-color: #b4b5b6;
+    border: 1px solid rgb(209,213,219);
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 200;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    /* margin: 50px; */
+    margin-top: 30px;
+  }
+  
+  .button-3:hover {
+    background-color: rgb(202, 202, 202);
+  }
+  
+  .button-3:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+  
+  .button-3:focus-visible {
+    box-shadow: none;
+  }
+  .bodyThirdDiv{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background-color:rgb(236, 230, 230) ;
+  }
+  .bodyThirdDiv h1{
+    padding-top: 30px;
+    color: #83878bda;
+    text-align: center;
+    
+  }
+  .bodyThirdDiv p {
+    font-size: 20px;
+    display: flex;  
+    justify-content: center;
+    text-align: center;
+    /* width: 250px; */
+    padding-top: 30px;
+    color: #9ea1a5;
+  }
